@@ -42,7 +42,7 @@ p {
 }
 
 .parallax {
-    background-image: url("https://www.ecestaticos.com/imagestatic/clipping/355/519/355519ce7b40084a9c84464265bfff96/los-25-destinos-turisticos-mas-populares-del-mundo.jpg?mtime=1427455462");
+    background-image: url("/img/travel.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
