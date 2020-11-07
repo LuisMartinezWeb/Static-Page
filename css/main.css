@@ -1,0 +1,368 @@
+a {
+    color: #040505;
+    text-decoration: none;
+    background-color: transparent;
+    color: #444;
+    text-decoration: none;
+    -webkit-transition: all 0.33s;
+    -moz-transition: all 0.33s;
+    -ms-transition: all 0.33s;
+    -o-transition: all 0.33s;
+    transition: all 0.33s;
+    line-height: 1.4;
+}
+
+a:hover {
+    color: #ff3e04;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .alinear {
+        justify-content: space-around;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background: #f4f4f4;
+}
+
+p {
+    font-weight: 200;
+}
+
+.fondo {
+    padding: 0;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.parallax {
+    background-image: url("https://www.ecestaticos.com/imagestatic/clipping/355/519/355519ce7b40084a9c84464265bfff96/los-25-destinos-turisticos-mas-populares-del-mundo.jpg?mtime=1427455462");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+}
+
+.fondo-nav {
+    background: white;
+}
+
+.men-inicio {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.seccion {
+    padding-top: 120px;
+    margin-bottom: 50px;
+}
+
+.menu-borde {
+    border: none;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>a:after {
+    content: "\f0da";
+    float: right;
+    border: none;
+    font-family: 'FontAwesome';
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.info-tama {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.menuu li {
+    display: block;
+}
+
+.banner {
+    padding-top: 56px;
+}
+
+.img-blog {
+    width: 100%;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.postt {
+    background: #fff;
+    margin-bottom: 50px;
+}
+
+.post-content {
+    padding: 50px;
+}
+
+.postt .post-content .btn-continua a {
+    border: 1px solid #da521e;
+    color: #da521e;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 18px;
+}
+
+.postt .post-content .btn-continua a:hover {
+    background: #da521e;
+    color: #fff;
+}
+
+.postt .post-content .post-meta {
+    overflow: hidden;
+    border-top: 1px solid #e2e2e2;
+    margin-top: 40px;
+    padding-top: 20px;
+    line-height: 1;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.postt .post-content .post-meta .contenido-autor {
+    color: #777;
+    font-style: italic;
+    font-size: 14px;
+    margin-left: 0;
+}
+
+li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.kotha-sidebar .widget.about-me-widget {
+    background: url("https://foodandtravel.mx/wp-content/uploads/2016/02/shutterstock_249963496.jpg") no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-color: #fff;
+}
+
+.kotha-sidebar .widget {
+    background-color: #fff;
+    padding: 35px 30px;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 0 0 2px 0 rgba(51, 51, 51, 0.08), 0 0 2px 0 rgba(51, 51, 51, 0.08);
+    box-shadow: 0 0 2px 0 rgba(51, 51, 51, 0.08), 0 0 2px 0 rgba(51, 51, 51, 0.08);
+}
+
+.kotha-sidebar .widget.about-me-widget .about-me-content .about-me-img {
+    padding-top: 8%;
+}
+
+.kotha-sidebar .widget.about-me-widget .about-me-content .about-me-img img {
+    display: inline-block;
+    border: 7px solid #fff;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.kotha-sidebar .widget.about-me-widget .about-me-content h2 {
+    margin-top: 12px;
+    margin-bottom: 22px;
+    color: #444;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.kotha-sidebar .widget.about-me-widget .social-share ul li {
+    padding: 0;
+}
+
+.kotha-sidebar .widget.about-me-widget .social-share ul li a {
+    display: inline-block;
+    border: 1px solid #e2e2e2;
+    color: #aaaaaa;
+    font-size: 13px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 28px;
+    margin-right: 6px;
+}
+
+.kotha-sidebar .widget.about-me-widget .social-share ul li a:hover {
+    background: #da521e;
+    border-color: #da521e;
+    color: #fff;
+}
+
+.kotha-sidebar .widget .widget-title {
+    color: #444;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 28px;
+}
+
+.kotha-sidebar .widget.news-letter-widget input[type="email"] {
+    width: 100%;
+    margin-bottom: 14px;
+    color: #b6b6b6;
+    border: 1px solid #eeeeee;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 10px 15px;
+    font-style: italic;
+    border-radius: 0;
+    background: #fafafa;
+}
+
+.kotha-sidebar .widget.news-letter-widget .btn-subscribe {
+    width: 100%;
+    background-color: #da521e;
+    color: #fff;
+    border-radius: 0;
+    -webkit-transition: all 0.33s;
+    transition: all 0.33s;
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 9px 0;
+    font-family: "Oswald", sans-serif;
+}
+
+.kotha-sidebar .widget.widget-popular-post ul {
+    padding: 0;
+    margin: 0;
+}
+
+.kotha-sidebar .widget.widget-popular-post ul li {
+    padding-left: 0;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.kotha-sidebar .widget.widget-popular-post ul li>a img {
+    width: 100%;
+}
+
+.h4,
+h4 {
+    color: #444;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.kotha-sidebar .widget.widget-popular-post ul li .p-content .p-date {
+    color: #777;
+    font-style: italic;
+    font-size: 14px;
+    margin-left: 0;
+    color: #777;
+}
+
+.media-left,
+.media>.pull-left {
+    padding-right: 15px;
+    float: left;
+}
+
+.kotha-sidebar .widget.latest-post-widget ul li .latest-post-content h2 {
+    color: #e2e2e2;
+    font-size: 14px;
+    letter-spacing: 0;
+    margin-bottom: 3px;
+}
+
+.kotha-sidebar .widget.latest-post-widget ul li .latest-post-content p {
+    color: #777;
+    font-style: italic;
+    font-size: 14px;
+    margin-left: 0;
+}
+
+.media-left,
+.media>.pull-left {
+    padding-right: 15px;
+    float: left;
+}
+
+.kotha-sidebar .widget.latest-post-widget ul {
+    padding: 0;
+    margin: 0;
+}
+
+.kotha-sidebar .widget.latest-post-widget ul li {
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 15px;
+    padding-left: 0;
+}
+
+.carousel-item {
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+
+footer {
+    background: #333333;
+    color: #fff;
+}
+
+footer .footer-widget-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+footer .footer-widget-row .footer-widget {
+    flex-basis: 30%;
+}
+
+footer .footer-widget-row .footer-widget .widget-title {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+
+footer .footer-widget-row .contact-widget p {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+footer .footer-widget-row .twitter-widget .single-tweet {
+    margin-bottom: 20px;
+}
+
+footer .footer-widget-row .twitter-widget .single-tweet p a {
+    color: #da521e;
+}
+
+footer .footer-widget-row .twitter-widget .single-tweet h4 .fa {
+    margin-right: 7px;
+    color: #da521e;
+}
+
+@media (max-width: 768px) {
+    footer .footer-widget-row {
+        display: block;
+    }
+}
+
+.bg-fotter {
+    background-color: #222;
+}
